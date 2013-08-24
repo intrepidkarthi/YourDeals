@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="750dp"
+    android:layout_height="250dp"
+    android:background="#c8c8c8"
+    android:orientation="vertical"
+    android:padding="1sp" >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="750dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/store_image"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        
+        <ImageView
+            android:id="@+id/deal_image"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/deal_image"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/deal_short_description"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:textSize="22sp"
+                android:textColor="#414141"
+                android:padding="5dp"
+                android:text="hello mama, dksfhsdk dsf dskfs fdsfjnds fdskj fdksjf sdkf sdk fdsn jf  fsd fds f " >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/days"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Days to go!"
+                    android:textColor="#f44b36"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/savings"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/days"
+                    android:text="You save!"
+                    android:textColor="#f44b36"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="750dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/store_image"
+        android:layout_gravity="bottom|left"
+        android:background="#eeeeee"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="750dp"
+            android:layout_height="1dp"
+            android:background="#d4d4d4" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="750dp"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/deal_description"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Testa ndroid:i d=@+id/ coup ogfgdf gfdgf  n_code_layoutan droid:layout_wi dth=400dpfgdgf gfgdgf dfandroid:la"
+                android:textColor="#383838"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="750dp"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/newpricetext"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Now"
+                android:textColor="#659900"
+                android:textSize="25dip" />
+
+            <TextView
+                android:id="@+id/newprice"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/newpricetext"
+                android:text="$3492.99"
+                android:textColor="#659900"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/oldpricetext"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/newprice"
+                android:text="Was"
+                android:textColor="#777777"
+                android:textSize="25dip" />
+
+            <TextView
+                android:id="@+id/oldprice"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/oldpricetext"
+                android:text="$1345.99"
+                android:textColor="#777777"
+                android:textSize="25dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
